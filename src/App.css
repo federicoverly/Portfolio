@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #003049;
+}
+
+a {
+  text-decoration: none;
+}

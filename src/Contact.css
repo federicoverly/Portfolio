@@ -1,0 +1,55 @@
+.contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fcbf49;
+}
+
+.contactme__title {
+  margin-bottom: 30px;
+}
+
+.contactme__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactme__info > h3 {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contactme__info > h3 > span {
+  margin: 0 10px;
+}
+
+.contactme__info > h3 > span > a {
+  color: #fcbf49;
+}
+
+.contactme__info > h3 > span > a > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5em 0.5em -0.4em #fcbf49;
+  transform: translateY(-0.25em);
+  text-decoration: none;
+}
+
+.contactme__info > h3 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 414px) {
+  .contactme {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contactme {
+    width: 100vw;
+  }
+}

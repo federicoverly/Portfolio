@@ -1,0 +1,80 @@
+.portfolio > h2 {
+  font-size: 100px;
+  color: #003049;
+}
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom: 100vh;
+}
+
+.portfolio__title {
+  color: #fcbf49;
+  margin-bottom: 30px;
+}
+
+.portfolio__videos {
+  display: flex;
+  flex-direction: row;
+  columns: 2;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.video {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fcbf49;
+  flex-wrap: wrap;
+}
+
+.video > h3 {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 414px) {
+  .portfolio {
+    width: 100vw;
+    margin-top: 100vh;
+  }
+
+  .video > video {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .portfolio {
+    width: 100vw;
+    margin-top: 120vh;
+  }
+
+  .video > video {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .portfolio {
+    width: 100vw;
+    margin-top: 150vh;
+  }
+
+  .video > video {
+    width: 80vw;
+  }
+
+  .portfolio > h2 {
+    font-size: 50px;
+    color: #003049;
+  }
+}
