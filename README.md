@@ -20,7 +20,7 @@ npm start
 
 ### Firebase
 
-Firestore is used for the storage of videos. Make sure to explore [firebase](https://firebase.google.com/)
+Firestore is used for the storage of videos and the deploy. Make sure to explore [firebase](https://firebase.google.com/)
 
 ### React-router-dom
 
