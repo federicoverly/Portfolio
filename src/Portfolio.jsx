@@ -81,15 +81,15 @@ function Portfolio() {
           <h1>PORTFOLIO</h1>
         </div>
         <div data-aos="fade-up" className="portfolio__videos">
-          {videos.map((video) => (
-            <div className="video">
+          {videos.map((video, index) => (
+            <div className="video" key={index}>
               <h3>{video.title}</h3>
               <iframe
                 src={video.video}
                 width="500"
                 height="250"
                 controls="controls"
-                autoplay="true"
+                autoPlay={false}
                 className="video__small"
                 title={video.title}
               />

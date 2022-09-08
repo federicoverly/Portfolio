@@ -8,14 +8,14 @@
 }
 
 .header__title {
-  color: #fcbf49;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
 .button {
-  color: #fcbf49;
-  background-color: #003049;
-  border: solid 3px #fcbf49;
+  color: #ffffff;
+  background-color: #000000;
+  border: solid 3px #ffffff;
   width: 20vw;
   height: 10vh;
   font-size: x-large;
@@ -25,14 +25,14 @@
 
 .button:hover,
 .button:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em #fcbf49;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
   transform: translateY(-0.25em);
   cursor: pointer;
 }
 
 .button > a {
   text-decoration: none;
-  color: #fcbf49;
+  color: #ffffff;
 }
 
 @media only screen and (max-width: 414px) {

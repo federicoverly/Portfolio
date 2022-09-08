@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  color: #fcbf49;
+  color: #ffffff;
 }
 
 .contactme__title {
@@ -28,12 +28,12 @@
 }
 
 .contactme__info > h3 > span > a {
-  color: #fcbf49;
+  color: #ffffff;
 }
 
 .contactme__info > h3 > span > a > .MuiSvgIcon-root:hover {
   cursor: pointer;
-  box-shadow: 0 0.5em 0.5em -0.4em #fcbf49;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
   transform: translateY(-0.25em);
   text-decoration: none;
 }

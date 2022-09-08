@@ -5,15 +5,16 @@
   align-items: center;
   height: 100vh;
   margin-top: 30vh;
+  margin-bottom: 20vh;
 }
 
 .aboutme > h2 {
   font-size: 100px;
-  color: #003049;
+  color: #000000;
 }
 
 .aboutme__title {
-  color: #fcbf49;
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -24,9 +25,9 @@
 }
 
 .question {
-  color: #fcbf49;
-  background-color: #003049;
-  border: solid 3px #fcbf49;
+  color: #ffffff;
+  background-color: #000000;
+  border: solid 3px #ffffff;
   width: 40vw;
   height: 20vh;
   font-size: x-large;
@@ -37,17 +38,46 @@
 
 .question:hover,
 .question:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em #fcbf49;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
   transform: translateY(-0.25em);
   cursor: pointer;
 }
 
 .answer {
-  color: #fcbf49;
+  color: #ffffff;
   text-align: center;
   font-size: x-large;
   max-width: 70vw;
   margin-bottom: 10vh;
+}
+
+.aboutme__more {
+  color: #ffffff;
+  text-align: center;
+  font-size: x-large;
+  max-width: 70vw;
+  margin-top: 15vh;
+  margin-bottom: 3vh;
+}
+.aboutme__more > h4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme__more > span > a {
+  color: #ffffff;
+}
+
+.aboutme__more > span > a > .MuiSvgIcon-root {
+  font-size: 80px;
+}
+
+.aboutme__more > span > a > .MuiSvgIcon-root:hover {
+  cursor: pointer;
+  box-shadow: 0 0.5em 0.5em -0.4em #ffffff;
+  transform: translateY(-0.25em);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 414px) {
