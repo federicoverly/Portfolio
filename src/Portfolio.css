@@ -8,13 +8,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  margin-bottom: 100vh;
+  margin-bottom: 10vh;
 }
 
 .portfolio__title {
   color: #ffffff;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .portfolio__videos {
@@ -39,6 +39,22 @@
 
 .video > h3 {
   padding-bottom: 10px;
+}
+
+.portfolio__deploys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio__deploys > span {
+  margin: 10px;
+}
+
+.portfolio__deploys > span > a {
+  color: #ffffff;
+  margin: 10px;
 }
 
 @media only screen and (max-width: 414px) {
