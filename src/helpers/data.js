@@ -63,6 +63,10 @@ export const videos = [
 
 export const deploys = [
   {
+    title: "Tik Tok clone",
+    link: "https://next-tiktok-clone-eight.vercel.app/",
+  },
+  {
     title: "Rental",
     link: "https://delarroyotandil.com/about-us",
   },
